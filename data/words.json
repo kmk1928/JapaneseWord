@@ -1,0 +1,82 @@
+{
+    "easy": {
+      "general": [
+        { "question": "犬", "answer": "개" },
+        { "question": "猫", "answer": "고양이" },
+        { "question": "花", "answer": "꽃" },
+        { "question": "川", "answer": "강" },
+        { "question": "本", "answer": "책" }
+      ],
+      "communication": [
+        { "question": "電話", "answer": "전화" }
+      ],
+      "education": [
+        { "question": "学校", "answer": "학교" }
+      ],
+      "food": [
+        { "question": "食べ物", "answer": "음식" }
+      ],
+      "color": [
+        { "question": "青い", "answer": "파란" }
+      ]
+    },
+    "medium": {
+      "general": [
+        { "question": "車", "answer": "차" },
+        { "question": "お金", "answer": "돈" },
+        { "question": "映画", "answer": "영화" }
+      ],
+      "technology": [
+        { "question": "コンピュータ", "answer": "컴퓨터" }
+      ],
+      "food": [
+        { "question": "お茶", "answer": "차" }
+      ],
+      "color": [
+        { "question": "赤い", "answer": "빨간" }
+      ]
+    },
+    "hard": {
+      "geography": [
+        { "question": "地図", "answer": "지도" },
+        { "question": "山", "answer": "산" },
+        { "question": "川", "answer": "강" }
+      ],
+      "transportation": [
+        { "question": "駅", "answer": "역" },
+        { "question": "飛行機", "answer": "비행기" },
+        { "question": "自転車", "answer": "자전거" }
+      ],
+      "science": [
+        { "question": "宇宙", "answer": "우주" },
+        { "question": "地球", "answer": "지구" },
+        { "question": "化学", "answer": "화학" }
+      ],
+      "politics": [
+        { "question": "政治", "answer": "정치" },
+        { "question": "国", "answer": "국가" },
+        { "question": "選挙", "answer": "선거" }
+      ],
+      "occupation": [
+        { "question": "医者", "answer": "의사" },
+        { "question": "エンジニア", "answer": "엔지니어" },
+        { "question": "芸術家", "answer": "예술가" }
+      ],
+      "education": [
+        { "question": "文学", "answer": "문학" },
+        { "question": "歴史", "answer": "역사" },
+        { "question": "科学", "answer": "과학" }
+      ],
+      "art": [
+        { "question": "アート", "answer": "아트" },
+        { "question": "音楽", "answer": "음악" },
+        { "question": "彫刻", "answer": "조각" }
+      ],
+      "color": [
+        { "question": "白い", "answer": "하얀" },
+        { "question": "黒い", "answer": "검은" },
+        { "question": "紫", "answer": "보라" }
+      ]
+    }
+  }
+  
