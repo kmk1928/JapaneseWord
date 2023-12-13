@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일본어 단어 맞히기 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>일본어 단어 맞히기 게임</h1>
+        <!-- 추가된 주제 및 난이도 선택 인터페이스 -->
+        <select id="theme-select" onchange="changeTheme()">
+            <option value="general">일반</option>
+            <option value="communication">커뮤니케이션</option>
+        </select>
+        <select id="difficulty-select" onchange="changeDifficulty()">
+            <option value="easy">쉬움</option>
+            <option value="medium">보통</option>
+            <option value="hard">어려움</option>
+        </select>
+        <div id="question-container">
+            <p id="question"></p>
+        </div>
+        <form onsubmit="return checkAnswer();">
+        <input type="text" id="answer-input" placeholder="일본어 단어를 입력하세요">
+        <button type="submit">제출</button>
+        </form>
+        <p id="timer"></p>
+        
+        <button onclick="resetGame()">게임 다시 시작</button>
+        <p id="result"></p>
+    </div>
+    <div id="user-form">
+        <h2>주제와 단어 추가</h2>
+        <label for="new-theme">새 주제:</label>
+        <input type="text" id="new-theme" />
+        <br>
+        <label for="new-difficulty">새 난이도:</label>
+        <input type="text" id="new-difficulty" />
+        <br>
+        <label for="new-question">새 문제:</label>
+        <input type="text" id="new-question" />
+        <br>
+        <label for="new-answer">새 답변:</label>
+        <input type="text" id="new-answer" />
+        <br>
+        <button onclick="addNewData()">추가</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

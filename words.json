@@ -1,0 +1,48 @@
+{
+  "general": {
+    "easy": [
+      { "question": "こんにちは", "answer": "안녕하세요" },
+      { "question": "ありがとう", "answer": "감사합니다" },
+      { "question": "はい", "answer": "예" },
+      { "question": "おはよう", "answer": "안녕하세요" },
+      { "question": "お願いします", "answer": "부탁합니다" }
+    ],
+    "medium": [
+      { "question": "さようなら", "answer": "안녕히 가세요" },
+      { "question": "おはようございます", "answer": "좋은 아침입니다" },
+      { "question": "ごめんなさい", "answer": "미안합니다" },
+      { "question": "お疲れ様でした", "answer": "수고하셨습니다" },
+      { "question": "どういたしまして", "answer": "천만에요" }
+    ],
+    "hard": [
+      { "question": "複雑な", "answer": "복잡한" },
+      { "question": "効率的な", "answer": "효율적인" },
+      { "question": "挑戦", "answer": "도전" },
+      { "question": "成果", "answer": "성과" },
+      { "question": "専門的", "answer": "전문적인" }
+    ]
+  },
+  "communication": {
+    "easy": [
+      { "question": "電話", "answer": "전화" },
+      { "question": "メール", "answer": "이메일" },
+      { "question": "手紙", "answer": "편지" },
+      { "question": "話す", "answer": "말하다" },
+      { "question": "聞く", "answer": "듣다" }
+    ],
+    "medium": [
+      { "question": "チャット", "answer": "채팅" },
+      { "question": "インターネット", "answer": "인터넷" },
+      { "question": "ビデオ通話", "answer": "비디오 통화" },
+      { "question": "スマートフォン", "answer": "스마트폰" },
+      { "question": "ウェブサイト", "answer": "웹사이트" }
+    ],
+    "hard": [
+      { "question": "セキュリティアルゴリズム", "answer": "보안 알고리즘" },
+      { "question": "データ暗号化", "answer": "데이터 암호화" },
+      { "question": "バックエンド開発", "answer": "백엔드 개발" },
+      { "question": "プログラミング", "answer": "프로그래밍" },
+      { "question": "アプリケーション", "answer": "애플리케이션" }
+    ]
+  }
+}
